@@ -23,4 +23,3 @@ highest_perc = max(gc_content.values())
 highest_name = [i for i in gc_content if gc_content[i] == highest_perc]
 
 print(highest_name[0] + "\n" + str(highest_perc))
-
