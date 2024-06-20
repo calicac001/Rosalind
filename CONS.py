@@ -31,7 +31,7 @@ def print_consensus(input_file):
     nucleotides = ["A", "C", "G", "T"]
 
     dna_matrix = []
-    
+
     for i in range(len(data)):
         if data[i].startswith(">"):
             dna_matrix.append("")
